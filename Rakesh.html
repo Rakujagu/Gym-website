@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Gym website
+    </title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        width:100%;
+        height: 100%;
+        font-family: 'Redressed', cursive;
+        background-image: url(https://cdn.pixabay.com/photo/2020/06/12/00/11/boxing-5288635__480.jpg); 
+      
+    }
+
+    .left {
+        /* border: 2px solid yellow; */
+        color: white;
+        display: inline;
+        position: absolute;
+        left: 22px;
+        top: 5px;
+
+    }
+
+    .left img {
+        width: 63px;
+        height: auto;
+        filter: invert(100%);
+        text-align: center;
+    }
+
+    .left div {
+        text-align: center;
+
+    }
+
+    .mid {
+        /* border: 2px solid red; */
+        color: white;
+        display: block;
+        position: sticky;
+        width: 40%;
+        margin: 15px 352px;
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        color: white;
+        display: inline;
+        position: absolute;
+        right: 22px;
+        top: 15px;
+    }
+
+    .navbar li {
+        display: inline;
+    }
+
+    .navbar li a {
+        color: rgb(248, 240, 240);
+        text-decoration: none;
+        padding: 34px 13px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .navbar li a:hover {
+        color: rgb(155, 243, 40);
+        text-decoration: underline;
+
+        padding: 34px 13px;
+        font-size: 15px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        padding: 3px 10px;
+        border: 2px solid red;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: 'Redressed', cursive;
+        background-color: rgb(193, 238, 32)
+    }
+
+    .btn:hover {
+        margin: 0px 9px;
+        padding: 3px 10px;
+        border: 2px solid rgb(19, 18, 18);
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgb(19, 233, 55)
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 150px 100px;
+        padding: 33px 33px;
+        width: 33%;
+        border-radius: 15px;
+        color:bisque;
+        text-align: center;
+    }
+    .container h1{
+    font-size:50px;
+    }
+    .form{
+margin: 15px;
+
+    }
+    .form ::placeholder{
+        font-family: 'Redressed', cursive;
+       
+    }
+.form input{
+    border-radius: 5px;
+    height:30%;
+    width: 50;
+    font: 100;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.form input :hover{
+    border-radius: 5px;
+    height:30%;
+    width: 50;
+    font: 100;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+    color: black;
+    background-color: azure;
+    cursor: pointer;
+}
+   
+    .btn1{
+        margin: 0px 67px;
+        padding: 3px 10px;
+        border: 2px solid red;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: 'Redressed', cursive;
+        background-color: rgb(193, 238, 32)    
+    }
+    .btn1:hover {
+        margin: 0px 67px;
+        padding: 3px 10px;
+        border: 2px solid rgb(19, 18, 18);
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgb(19, 233, 55)
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://cdn.pixabay.com/photo/2018/05/17/19/26/crossfit-3409475_1280.png" alt="">
+            <div>Rakesh's gym</div>
+        </div>
+        <!-- mid is for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Disclamire</a></li>
+          </ul>
+    <hr>
+        </div>
+   
+        <!-- right is for buttons -->
+        <div class="right">
+            <button class="btn">Call us </button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+
+
+    <div class="container">
+     <h1>  Join our gym now</h1> 
+     <hr>
+        <form action="noaction.php">
+<div class="form">
+    <input type="text" name="" placeholder="Enter your name">
+    
+</div>
+<div class="form">
+    <input type="text" name="" placeholder="Enter your mobile number">
+    
+</div>
+<div class="form">
+    <input type="text" name="" placeholder="Enter your email address">
+    
+</div>
+<div class="form">
+    <input type="text" name="" placeholder="Enter your address">
+    
+</div>
+<div>
+<button class="btn1">Submit</button>
+</div>
+        </form>
+    </div>
+</body>
+
+</html>
